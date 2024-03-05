@@ -24,7 +24,7 @@ namespace BooksStoreGUI
         public MainWindow()
         {
             booksStoreBL = new BooksStoreBL.BookStoreBL();
-
+            
 
             InitializeComponent();
             var res = booksStoreBL.GetAllBooks();
